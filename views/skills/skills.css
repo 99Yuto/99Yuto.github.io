@@ -1,0 +1,125 @@
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 195px 0 200px;
+}
+
+.skill-row + .skill-row {
+  margin-top: 160px;
+}
+
+.skill-row .skill-container {
+  flex: 0.5;
+}
+
+.skill-row.right {
+  justify-content: flex-end;
+}
+
+/* skill container */
+
+/* header */
+.skill-container .skill-header {
+  display: flex;
+  align-items: center;
+}
+.skill-header .skill-header--title {
+  font-size: 40px;
+  color: #554988;
+}
+
+.skill-header .skill-header--br {
+  position: relative;
+  flex: 1;
+  height: 2px;
+  background-color: #9489b6;
+}
+
+.skill-header .skill-header--br::after {
+  position: absolute;
+  top: -5px;
+  content: "";
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #9489b6;
+}
+
+.skill-header .skill-header--br.right {
+  margin-left: 15px;
+}
+
+.skill-header .skill-header--br.right::after {
+  right: 0;
+}
+
+.skill-header .skill-header--br.left {
+  margin-right: 15px;
+}
+.skill-header .skill-header--br.left::before {
+  left: 0;
+}
+
+/* container -body */
+.skill-container .skill-body {
+  margin-top: 40px;
+}
+
+.skill-container .skill-body .license-body {
+  padding-top: 29px;
+  padding-left: 40px;
+}
+.skill-container .skill-body .license-body--text {
+  color: #554988;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.skill-body .skill-icon {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1290px) {
+  #skills {
+    padding: 195px 15%;
+  }
+  .skill-row {
+    width: 100% !important;
+  }
+  .skill-row .skill-container {
+    flex: 1;
+  }
+}
+
+/* License */
+@media screen and (max-width: 752px) {
+  .skill-container .license-container {
+    flex-direction: column;
+  }
+  .skill-container .license-container .license-body {
+    padding: 0;
+  }
+  .skill-container .skill-body .license-body--text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .skill-body .skill-icon {
+    flex: 1;
+    margin: 0 7.5px 15px;
+  }
+  #python-icon {
+    flex: 0.5;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .skill-body .skill-icon {
+    max-width: 103px;
+    aspect-ratio: 1 /1;
+    flex: 0.5;
+    margin: 0 4.5px 9px;
+  }
+}

@@ -1,0 +1,42 @@
+.my-nav {
+  background-color: #9788ba;
+  font-size: 20px;
+  z-index: 999;
+}
+
+.my-nav .logo-wrapper {
+  flex: 1;
+}
+
+.my-nav .logo-wrapper .logo-link {
+  display: inline-block;
+  width: 131px;
+  height: 43px;
+}
+
+.my-nav .logo-wrapper .logo-image {
+  width: 100%;
+  height: 100%;
+}
+
+.my-nav .nav-body {
+  width: 1290px;
+  height: 65px;
+}
+
+.my-nav .nav-body .logo-wrapper {
+  flex: 1;
+}
+
+.nav-link .nav-link--item + .nav-link--item {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 1290px) {
+  .my-nav {
+    padding: 0 15%;
+  }
+  .my-nav .nav-body {
+    width: 100%;
+  }
+}

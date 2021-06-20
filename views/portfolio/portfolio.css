@@ -1,0 +1,180 @@
+#portfolio {
+  padding-top: 135px;
+}
+
+.skill-container .portfolio-body {
+  padding: 70px 0;
+  color: #9788ba;
+}
+
+.skill-container + .skill-container {
+  margin-top: 90px;
+}
+
+#fish1 {
+  width: 44%;
+  height: calc(31vw * 0.74);
+}
+
+.fish2 {
+  width: 24%;
+  height: calc(31vw * 0.74);
+}
+
+/* body--text */
+.portfolio-body .body--text {
+  margin-top: 80px;
+}
+
+.portfolio-body .body--title {
+  display: inline-block;
+  font-size: 25px;
+  padding-bottom: 7px;
+  border-bottom: 8px solid #9788ba;
+}
+
+.portfolio-body .body--main {
+  padding-top: 14px !important;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+/* artwork */
+.gallery-col + .gallery-col {
+  margin-left: 30px;
+}
+.col-300 {
+  width: 300px;
+}
+
+.col-410 {
+  /* width: 410px; */
+}
+
+.gallery-col.right .body--text {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.gallery-col.right .body--title {
+  width: fit-content;
+}
+
+#flower .body--text {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 410px;
+  margin-top: 0;
+  margin-right: 30px;
+}
+#flower .body--title {
+  width: fit-content;
+}
+
+/* row */
+.gallery-row + .gallery-row {
+  margin-top: 80px;
+}
+
+/* character */
+
+/* package */
+
+/*  */
+.poster-gallery + .body--text {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0;
+  width: 630px;
+}
+.poster-gallery + .body--text .body--title {
+  width: fit-content;
+}
+
+@media screen and (max-width: 1365px) {
+  .section-center {
+    padding: 0 30px;
+  }
+  #journey {
+    flex-direction: column;
+  }
+  #flower {
+    flex-direction: column-reverse;
+  }
+
+  #journey .body--text {
+    margin-left: 0;
+    width: 410px;
+  }
+
+  #flower .body--text {
+    width: 300px;
+    display: block;
+    margin-top: 80px;
+    margin-right: 0;
+  }
+  .col-300 .body--text {
+    width: 300px;
+  }
+  .col-410 .body--text {
+    width: 410px;
+  }
+
+  .character-gallery {
+    padding: 0 30px;
+  }
+  .character-image {
+    width: 30%;
+    height: calc(30% * 1.5);
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 771px) {
+  .skill-header--br {
+    display: none;
+  }
+  #portfolio {
+    padding: 135px 30px 0;
+  }
+
+  #fish1 {
+    width: 100%;
+    height: calc(100vw * 0.74);
+  }
+
+  .fish2 {
+    width: 48%;
+    height: calc(100vw * 0.74);
+    margin-top: 30px;
+  }
+  .gallery-col {
+    width: 50% !important;
+  }
+  .gallery-col .col-300,
+  .img-300,
+  .img-410,
+  .body--text {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .gallery-row {
+    flex-wrap: wrap;
+  }
+  .gallery-col {
+    width: 100% !important;
+  }
+  .gallery-col + .gallery-col {
+    margin: 30px 0;
+  }
+  .character-image {
+    width: 100%;
+  }
+}

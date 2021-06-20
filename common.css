@@ -1,0 +1,44 @@
+html,
+body {
+  font-size: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+p {
+  margin: 0 !important;
+}
+
+h1 {
+  margin: 0 !important;
+}
+
+/* bootstrap reset */
+.nav-link {
+  color: inherit !important;
+}
+
+.section-center {
+  width: 1290px;
+}
+
+@media screen and (max-width: 1290px) {
+  .section-center {
+    width: auto;
+  }
+}

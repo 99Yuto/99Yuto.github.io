@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../common.css" />
+    <link rel="stylesheet" href="../../nav.css" />
+    <link rel="stylesheet" href="../../pageBody.css" />
+    <link rel="stylesheet" href="../../footer.css" />
+    <!--  -->
+    <link rel="stylesheet" href="./about.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="min-vh-100">
+    <!-- nav start -->
+    <nav class="my-nav position-fixed top-0 w-100 d-flex justify-content-center">
+      <div class="nav-body d-flex align-items-center text-white">
+        <div class="logo-wrapper">
+          <a class="logo-link" href="../../index.html">
+            <img class="logo-image" src="../../images/logo-white.png" alt="logo" />
+          </a>
+        </div>
+        <!--  -->
+        <ul class="nav-link d-flex">
+          <li class="nav-link--item"><a href="../about/index.html">About me</a></li>
+          <li class="nav-link--item"><a href="../skills/index.html">Skills</a></li>
+          <li class="nav-link--item"><a href="../portfolio/index.html">Portfolio</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- page-body start -->
+    <section id="about-me" class="page-body min-vh-100 d-flex flex-column align-items-center w-100">
+      <!-- header start -->
+      <header class="about-header">
+        <div class="horizontal-br"></div>
+        <h1 class="about-header--title">Hyerin Ryu</h1>
+        <p class="about-header--body">안녕하세요.</p>
+        <p class="about-header--body">자유로운 몽상가 유혜린 입니다.</p>
+        <p class="about-header--body">제가 원하는 이상향의 세계를 만들어</p>
+        <p class="about-header--body">나가기 위해 언제나 노력중입니다.</p>
+        <img class="about-header--logo" src="../../images/logo-opacity.png" alt="header logo" />
+      </header>
+      <!-- header end -->
+
+      <!-- row1 -->
+      <section class="about-row">
+        <div class="hy--col">
+          <div class="hyerin">
+            <img class="hyerin--image-1" src="../../images/about_2.png" alt="img1" />
+            <div class="logo-wrapper">
+              <img class="logo-image" src="../../images/logo-indigo-90.png" alt="logo" />
+            </div>
+          </div>
+          <!--  -->
+          <p class="about-name-title">H Y E R I N R Y U</p>
+        </div>
+        <!--  -->
+        <div class="hy--col">
+          <img class="hyerin--image-2" src="../../images/about_3.png" alt="img2" />
+        </div>
+      </section>
+
+      <!-- row2 -->
+      <section class="about-row">
+        <div class="hy--col">
+          <img class="hyerin--image-3" src="../../images/about_4.png" alt="img3" />
+        </div>
+        <!--  -->
+        <div class="hy--col motto">
+          <span class="motto--title">Motto</span>
+          <p class="motto--body">Whatever does not</p>
+          <p class="motto--body">destory me makes me stronger</p>
+        </div>
+      </section>
+
+      <!-- img -->
+      <div class="division-img d-flex justify-content-center align-items-center w-100">
+        <span class="division-text">H Y E R I N R Y U</span>
+        <img class="division-logo" src="../../images/logo-white.png" alt="division-logo" />
+        <span class="division-text">H Y E R I N R Y U</span>
+      </div>
+
+      <!-- contact me -->
+      <form class="d-flex flex-column contact-form section-center">
+        <div class="horizontal-br"></div>
+        <h2 class="form--title">Contact me</h2>
+
+        <!--  -->
+        <div class="container">
+          <div class="row g-3 mt-5">
+            <div class="col-md-4">
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control form--input"
+                  id="floatingInput"
+                  placeholder="Name"
+                />
+                <label for="floatingInput">Name</label>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control form--input"
+                  id="floatingPassword"
+                  placeholder="E-mail"
+                />
+                <label for="floatingPassword">E-mail</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-3 mt-2">
+            <div class="col-lg-8">
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control form--input"
+                  id="floatingPassword"
+                  placeholder="Title"
+                />
+                <label for="floatingPassword">Title</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-3 mt-2">
+            <div class="col-lg-12 form-floating">
+              <textarea
+                id="floatingMessage"
+                class="form--textarea form-control"
+                placeholder="Message"
+              ></textarea>
+              <label for="floatingMessage">Message</label>
+            </div>
+          </div>
+        </div>
+        <div class="button-wrapper">
+          <button title="전송 버튼" class="form--button" type="submit">Send</button>
+        </div>
+      </form>
+    </section>
+    <!-- page-body end -->
+
+    <!-- footer start -->
+    <footer
+      class="
+        my-footer
+        d-flex
+        flex-column
+        align-items-center
+        justify-content-between
+        position-relative
+        bottom-0
+        text-white
+        w-100
+      "
+    >
+      <div class="logo-wrapper">
+        <img class="logo-image" src="../../images/logo-white.png" alt="logo" />
+      </div>
+      <ul class="footer-list d-flex justify-content-around w-100">
+        <li class="footer-list--item">
+          <p class="footer-list--title">Division</p>
+          <p class="footer-list--item">Hanyang Univ. ERICA</p>
+          <p class="footer-list--item">Major of Design Technology</p>
+        </li>
+        <li class="footer-list--item">
+          <p class="footer-list--title">Contact</p>
+          <p class="footer-list--item">Phone +82 87090528</p>
+          <p class="footer-list--item">E-mail. hriny1285@gmail.com</p>
+        </li>
+        <li class="footer-list--item">
+          <p class="footer-list--title">Contact</p>
+          <p class="footer-list--item">KakaoTalk ID. Taemtaem0718</p>
+          <p class="footer-list--item">Instagram ID. rinn_0718</p>
+        </li>
+      </ul>
+      <p class="copyright">ⓒ HYERINRYU</p>
+    </footer>
+    <!-- footer end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
