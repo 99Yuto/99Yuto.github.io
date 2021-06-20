@@ -130,7 +130,7 @@
 
 .division-img .division-logo {
   width: 19%;
-  aspect-ratio: 1 / 3;
+  /*aspect-ratio: 1 / 3;*/
   margin: 0 94px;
 }
 
@@ -236,7 +236,7 @@ textarea {
   }
   .about-header .about-header--logo {
     width: 90%;
-    aspect-ratio: 1 / 3;
+    /*aspect-ratio: 1 / 3;*/
   }
 
   .about-row {
